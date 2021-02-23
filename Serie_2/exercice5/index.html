@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <html lang="fr"><dir="ltr">
+  <title>Exercice5</title>
+</head>
+<body>
+  <style>
+  input[type=text]{
+    width: 40%
+    padding: 5px 5px
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type=button] {
+    border: 1 px solid #ccc;
+    border-radius: 4 px;
+    margin: 10px;
+    padding: 3px 10px;
+    color: rgba(61, 60,60,0.884);
+    display: block;
+  }
+  div {
+    background-color: rosybrown;
+    border-radius: 5px;
+    padding: 10px;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px;
+  }
+  label{
+    display: block;
+    margin: 2px;
+  }
+  </style>
+  <body>
+    <h1>Formulaire</h1>
+    <div>
+      <form action="/url_adresse_serveur">
+        <label for>Veuillez saisir votre nom</label>
+        <input type= "text"name="nom"
+        placeholder="Nom"required= "required"/>
+        <label for>Veuillez saisir votre prénom</label>
+        <input type= "text" name="prenom"
+        placeholder="Prenom" required= "required"/>
+        <label for>Veuillez saisir votre adresse</label>
+        <input type= "text"name="adresse"
+        placeholder="Adresse"required= "required"/>
+        <label for>Veuillez saisir votre numerode téléphone</label>
+        <input type= "numbers" name="téléphone"
+        placeholder="tel" required= "required"/>
+        <label for>Veuillez saisir votre mot de passe</label>
+        <input type= "password" id= "password" name="mdp"
+        placeholder="password" required= "required"/>
+        <label for><button type="submit">Envoyer</button></label>
+      </form>
+    </div>
+  </body>
+  </html>
